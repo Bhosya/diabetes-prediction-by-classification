@@ -61,8 +61,7 @@
     {% if hasil_dt and hasil_svc %}
     <div class="result-box {{ 'positif' if 'Positif' in hasil_dt else 'negatif' }}">
         <h3>Hasil Analisis Model:</h3>
-        <p><b>Model Decision Tree:</b> {{ hasil_dt }}</p>
-        <p><b>Model SVM:</b> {{ hasil_svc }}</p>
+        <p>{{ hasil_dt }}</p>
     </div>
     {% endif %}
 </div>
